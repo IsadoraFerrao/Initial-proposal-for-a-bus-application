@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "523503697385",
+    "firebase_url": "https://notificacoestchebus.firebaseio.com",
+    "project_id": "notificacoestchebus",
+    "storage_bucket": "notificacoestchebus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523503697385:android:2c7fd609e3bdd48e",
+        "android_client_info": {
+          "package_name": "com.example.isado.tchebus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523503697385-s2gtidfa2visprp8h1ksj0rr9tbejpus.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.isado.tchebus",
+            "certificate_hash": "70c596fd251c5142081eed357ff253abd0d8105f"
+          }
+        },
+        {
+          "client_id": "523503697385-8nt32m249it545jnf3531pcehib7f1v7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYjzfVelBgOXRBsXtIfH8KtqlCNpyOpD0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523503697385-8nt32m249it545jnf3531pcehib7f1v7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,1559 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.isado.tchebus.MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.005"
+        android:layout_width="383dp"
+        android:layout_height="111dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/alegrete1"
+        android:text="." />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="191dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="113dp"
+        android:background="@color/colorPrimary"
+        android:text="Ônibus"
+        android:textColor="@android:color/white"
+        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="voltar"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="191dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="113dp"
+        android:background="@drawable/rota"
+        android:onClick="rota10"
+        android:text="Rota"
+        android:textColor="?android:attr/colorForeground"
+        app:layout_constraintHorizontal_bias="0.994"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:layout_width="371dp"
+        android:layout_height="329dp"
+        android:layout_marginTop="166dp"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="387dp"
+            android:layout_height="101dp"
+            android:background="@drawable/fundonogueira"
+            android:text="Vera Cruz - Santos Dumont"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="-1dp"
+            tools:layout_editor_absoluteY="157dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Vera Cruz                                06:30"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Centro                                      06:44"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Unipampa                                 06:51"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Santos Dum.                           06:53"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="399dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+
+        <Button
+            android:id="@+id/button80"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Santos Dum.                           07:03"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <Button
+            android:id="@+id/button81"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Unipampa                                 07:05"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <Button
+            android:id="@+id/button82"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Centro                                      07:11"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <Button
+            android:id="@+id/button83"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Vera Cruz                               07:28"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="399dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <!--2° horário-->
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Centro                                      07:44"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Vera Cruz                                07:30"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Unipampa                                 07:51"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Santos Dum.                           07:53"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="399dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+            android:id="@+id/button87"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Santos Dum.                           08:03"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <Button
+            android:id="@+id/button86"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Unipampa                                 08:05"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <Button
+            android:id="@+id/button85"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Centro                                      08:11"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <Button
+            android:id="@+id/button84"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Vera Cruz                               08:28"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="399dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <!--3° horário-->
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Vera Cruz                                08:30"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Centro                                      08:44"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <Button
+            android:id="@+id/button26"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Unipampa                                 08:51"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <Button
+            android:id="@+id/button27"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Santos Dum.                           08:53"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="399dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+            android:id="@+id/button91"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Santos Dum.                           09:03"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <Button
+            android:id="@+id/button90"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Unipampa                                 09:05"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <Button
+            android:id="@+id/button89"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Centro                                      09:11"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <Button
+            android:id="@+id/button88"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Vera Cruz                               09:28"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="399dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <!--4° horário-->
+
+        <Button
+            android:id="@+id/button28"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Vera Cruz                                09:30"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <Button
+            android:id="@+id/button29"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Centro                                      09:44"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <Button
+            android:id="@+id/button31"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Unipampa                                 09:51"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <Button
+            android:id="@+id/button30"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Santos Dum.                           09:53"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="399dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+            android:id="@+id/button95"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Santos Dum.                           10:03"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <Button
+            android:id="@+id/button94"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Unipampa                                 10:05"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <Button
+            android:id="@+id/button93"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Centro                                      10:11"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <Button
+            android:id="@+id/button92"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Vera Cruz                               10:28"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="399dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <!--5° horário-->
+
+        <Button
+            android:id="@+id/button32"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Vera Cruz                                10:30"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <Button
+            android:id="@+id/button33"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Centro                                      10:44"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <Button
+            android:id="@+id/button34"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Unipampa                                 10:51"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <Button
+            android:id="@+id/button35"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Santos Dum.                           10:53"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="399dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+            android:id="@+id/button96"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Santos Dum.                           11:03"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <Button
+            android:id="@+id/button97"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Unipampa                                 11:05"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <Button
+            android:id="@+id/button98"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Centro                                      11:11"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <Button
+            android:id="@+id/button99"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Vera Cruz                               11:28"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="399dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <!--6° horário-->
+
+        <Button
+            android:id="@+id/button36"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Vera Cruz                                11:30"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <Button
+            android:id="@+id/button37"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Centro                                      11:44"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <Button
+            android:id="@+id/button38"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Unipampa                                 11:51"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <Button
+            android:id="@+id/button39"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Santos Dum.                           11:53"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="399dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+
+        <Button
+            android:id="@+id/button103"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Santos Dum.                           12:03"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <Button
+            android:id="@+id/button102"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Unipampa                                 12:05"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <Button
+            android:id="@+id/button101"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Centro                                      12:11"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <Button
+            android:id="@+id/button100"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Vera Cruz                               12:28"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="399dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <!--7° horário-->
+
+        <Button
+            android:id="@+id/button40"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Vera Cruz                                12:30"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <Button
+            android:id="@+id/button41"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Centro                                      12:44"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <Button
+            android:id="@+id/button42"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Unipampa                                 12:51"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <Button
+            android:id="@+id/button43"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Santos Dum.                           12:53"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="399dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+            android:id="@+id/button104"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Santos Dum.                           13:03"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <Button
+            android:id="@+id/button105"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Unipampa                                 13:05"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <Button
+            android:id="@+id/button106"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Centro                                      13:11"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <Button
+            android:id="@+id/button107"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Vera Cruz                               13:28"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="399dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+
+        <!--7° horário-->
+
+        <Button
+            android:id="@+id/button44"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Vera Cruz                                13:30"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <Button
+            android:id="@+id/button45"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Centro                                      13:44"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <Button
+            android:id="@+id/button46"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Unipampa                                 13:51"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <Button
+            android:id="@+id/button47"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Santos Dum.                           13:53"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="399dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+            android:id="@+id/button111"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Santos Dum.                           14:03"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <Button
+            android:id="@+id/button110"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Unipampa                                 14:05"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <Button
+            android:id="@+id/button109"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Centro                                      14:11"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <Button
+            android:id="@+id/button108"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Vera Cruz                               14:28"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="399dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+
+        <!--8° horário-->
+
+        <Button
+            android:id="@+id/button48"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Vera Cruz                                14:30"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <Button
+            android:id="@+id/button49"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Centro                                      14:44"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <Button
+            android:id="@+id/button50"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Unipampa                                 14:51"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <Button
+            android:id="@+id/button51"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Santos Dum.                           14:53"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="399dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+            android:id="@+id/button114"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Santos Dum.                           15:03"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <Button
+            android:id="@+id/button115"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Unipampa                                 15:05"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <Button
+            android:id="@+id/button116"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Centro                                      15:11"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <Button
+            android:id="@+id/button117"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Vera Cruz                               15:28"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="399dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <!--9° horário-->
+
+        <Button
+            android:id="@+id/button52"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Vera Cruz                                15:30"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <Button
+            android:id="@+id/button53"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Centro                                      15:44"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <Button
+            android:id="@+id/button54"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Unipampa                                 14:51"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <Button
+            android:id="@+id/button55"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Santos Dum.                           15:53"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="399dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+            android:id="@+id/button121"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Santos Dum.                           16:03"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <Button
+            android:id="@+id/button120"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Unipampa                                 16:05"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <Button
+            android:id="@+id/button119"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Centro                                      16:11"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <Button
+            android:id="@+id/button118"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Vera Cruz                               16:28"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="399dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+
+        <!--10° horário-->
+
+        <Button
+            android:id="@+id/button57"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Vera Cruz                                16:30"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <Button
+            android:id="@+id/button58"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Centro                                      16:44"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <Button
+            android:id="@+id/button59"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Unipampa                                 16:51"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <Button
+            android:id="@+id/button60"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Santos Dum.                           16:53"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="399dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+            android:id="@+id/button122"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Santos Dum.                           17:03"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <Button
+            android:id="@+id/button123"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Unipampa                                 17:05"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <Button
+            android:id="@+id/button124"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Centro                                      17:11"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <Button
+            android:id="@+id/button125"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Vera Cruz                               17:28"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="399dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <!--11° horário-->
+
+        <Button
+            android:id="@+id/button61"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Vera Cruz                                17:30"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <Button
+            android:id="@+id/button62"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Centro                                      17:44"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <Button
+            android:id="@+id/button63"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Unipampa                                 17:51"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <Button
+            android:id="@+id/button64"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Santos Dum.                           17:53"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="399dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+
+        <Button
+            android:id="@+id/button129"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Santos Dum.                           18:03"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <Button
+            android:id="@+id/button128"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Unipampa                                 18:05"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <Button
+            android:id="@+id/button127"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Centro                                      18:11"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <Button
+            android:id="@+id/button126"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Vera Cruz                               18:28"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="399dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+
+        <!--12° horário-->
+
+        <Button
+            android:id="@+id/button65"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Vera Cruz                                18:30"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <Button
+            android:id="@+id/button66"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Centro                                      18:44"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <Button
+            android:id="@+id/button67"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Unipampa                                 18:51"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <Button
+            android:id="@+id/button68"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Santos Dum.                           18:53"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="399dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+            android:id="@+id/button130"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Santos Dum.                           19:03"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <Button
+            android:id="@+id/button131"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Unipampa                                 19:05"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <Button
+            android:id="@+id/button132"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Centro                                      19:11"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <Button
+            android:id="@+id/button133"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Vera Cruz                               19:28"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="399dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <!--13° horário-->
+
+        <Button
+            android:id="@+id/button69"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Vera Cruz                                19:30"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <Button
+            android:id="@+id/button70"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Centro                                      19:44"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <Button
+            android:id="@+id/button71"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Unipampa                                 19:51"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <Button
+            android:id="@+id/button72"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Santos Dum.                           19:53"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="399dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+            android:id="@+id/button137"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Santos Dum.                           20:03"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <Button
+            android:id="@+id/button136"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Unipampa                                 20:05"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <Button
+            android:id="@+id/button135"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Centro                                      20:11"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <Button
+            android:id="@+id/button134"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Vera Cruz                               20:28"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="399dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+
+        <!--14° horário-->
+
+        <Button
+            android:id="@+id/button73"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Vera Cruz                                20:30"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <Button
+            android:id="@+id/button74"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Centro                                      20:44"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <Button
+            android:id="@+id/button75"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Unipampa                                 20:51"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <Button
+            android:id="@+id/button76"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Santos Dum.                           20:53"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="399dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+            android:id="@+id/button141"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Santos Dum.                           21:03"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <Button
+            android:id="@+id/button140"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Unipampa                                 21:05"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <Button
+            android:id="@+id/button139"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Centro                                      21:11"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <Button
+            android:id="@+id/button138"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:background="@drawable/botao"
+            android:text="Vera Cruz                               21:28"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="399dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

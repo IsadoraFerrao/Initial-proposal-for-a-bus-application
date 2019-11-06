@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.isado.tchebus.MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.005"
+        android:layout_width="383dp"
+        android:layout_height="111dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/alegrete1"
+        android:text="." />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="191dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="113dp"
+        android:background="@color/colorPrimary"
+        android:text="Ônibus"
+        android:textColor="@android:color/white"
+        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="voltar"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="191dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="113dp"
+        android:background="@drawable/rota"
+        android:onClick="rota11"
+        android:text="Rota"
+        android:textColor="?android:attr/colorForeground"
+        app:layout_constraintHorizontal_bias="0.994"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="371dp"
+        android:layout_height="329dp"
+        android:layout_marginTop="166dp"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="387dp"
+                android:layout_height="101dp"
+                android:background="@drawable/vaucherenogueira"
+                android:text="Linha Final - C1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="-1dp"
+                tools:layout_editor_absoluteY="157dp" />
+
+            <Button
+                android:id="@+id/button07"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Nova Brasília                         21:00"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="352dp" />
+
+            <Button
+                android:id="@+id/button007"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Terminal                                  21:05"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="352dp" />
+
+
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Centro                                      21:13"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Vera Cruz                                21:35"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

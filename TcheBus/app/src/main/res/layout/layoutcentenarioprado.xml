@@ -1,0 +1,1069 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.isado.tchebus.MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.005"
+        android:layout_width="383dp"
+        android:layout_height="111dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/alegrete1"
+        android:text="." />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="191dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="113dp"
+        android:background="@color/colorPrimary"
+        android:text="Ônibus"
+        android:textColor="@android:color/white"
+        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="voltar"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="191dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="113dp"
+        android:background="@drawable/rota"
+        android:onClick="rota"
+        android:text="Rota"
+        android:textColor="?android:attr/colorForeground"
+        app:layout_constraintHorizontal_bias="0.994"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="371dp"
+        android:layout_height="329dp"
+        android:layout_marginTop="166dp"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="387dp"
+                android:layout_height="101dp"
+                android:background="@drawable/fundovaucher"
+                android:text="Prado - Centro - Centenário"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="-1dp"
+                tools:layout_editor_absoluteY="157dp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Prado                                        07:30"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="352dp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Centro                                      07:51"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Rodoviária                               07:54"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Centenário/Unip                   07:58"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Rodoviária                               08:03"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Centro                                      08:10"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Prado                                        08:27"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="352dp" />
+
+            <!--2° horário -->
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Centro                                      08:51"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Rodoviária                               08:54"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Centenário/Unip                   08:58"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Rodoviária                               09:03"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Centro                                      09:10"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Prado                                        09:27"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="352dp" />
+
+            <!--3° horário -->
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Centro                                      09:51"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Rodoviária                               09:54"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Centenário/Unip                   09:58"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Rodoviária                               10:03"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Centro                                      10:10"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Prado                                        10:27"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="352dp" />
+
+            <!--4° horário -->
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Centro                                      10:51"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Rodoviária                               10:54"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Centenário/Unip                   10:58"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Rodoviária                               11:03"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Centro                                      11:10"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Prado                                        11:27"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="352dp" />
+
+            <!--5° horário -->
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Centro                                      11:51"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <Button
+                android:id="@+id/button30"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Rodoviária                               11:54"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+
+            <Button
+                android:id="@+id/button31"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Centenário/Unip                   11:58"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+            <Button
+                android:id="@+id/button302"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Rodoviária                               12:03"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+            <Button
+                android:id="@+id/button32"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Centro                                      12:10"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <Button
+                android:id="@+id/button33"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Prado                                        12:27"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="352dp" />
+
+            <!--6° horário -->
+
+            <Button
+                android:id="@+id/button34"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Centro                                      12:51"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <Button
+                android:id="@+id/button35"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Rodoviária                               12:54"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+
+            <Button
+                android:id="@+id/button36"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Centenário/Unip                   12:58"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+            <Button
+                android:id="@+id/button37"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Rodoviária                               13:03"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+            <Button
+                android:id="@+id/button38"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Centro                                      13:10"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <Button
+                android:id="@+id/button39"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Prado                                        13:27"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="352dp" />
+
+            <!--7° horário -->
+
+            <Button
+                android:id="@+id/button40"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Centro                                      13:51"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <Button
+                android:id="@+id/button41"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Rodoviária                               13:54"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+
+            <Button
+                android:id="@+id/button42"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Centenário/Unip                   13:58"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+            <Button
+                android:id="@+id/button43"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Rodoviária                               14:03"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+            <Button
+                android:id="@+id/button44"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Centro                                      14:10"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <Button
+                android:id="@+id/button45"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Prado                                        14:27"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="352dp" />
+
+            <!--8° horário -->
+
+            <Button
+                android:id="@+id/button46"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Centro                                      14:51"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <Button
+                android:id="@+id/button47"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Rodoviária                               14:54"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+
+            <Button
+                android:id="@+id/button48"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Centenário/Unip                   14:58"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+            <Button
+                android:id="@+id/button49"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Rodoviária                               15:03"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+            <Button
+                android:id="@+id/button50"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Centro                                      15:10"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <Button
+                android:id="@+id/button51"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Prado                                        15:27"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="352dp" />
+
+            <!--9° horário -->
+
+            <Button
+                android:id="@+id/button52"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Centro                                      15:51"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <Button
+                android:id="@+id/button53"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Rodoviária                               15:54"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+
+            <Button
+                android:id="@+id/button54"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Centenário/Unip                   15:58"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+            <Button
+                android:id="@+id/button55"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Rodoviária                               16:03"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+            <Button
+                android:id="@+id/button56"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Centro                                      16:10"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <Button
+                android:id="@+id/button57"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Prado                                        16:27"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="352dp" />
+
+            <!--10° horário -->
+
+            <Button
+                android:id="@+id/button58"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Centro                                      16:51"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <Button
+                android:id="@+id/button59"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Rodoviária                               16:54"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+
+            <Button
+                android:id="@+id/button60"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Centenário/Unip                   16:58"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+            <Button
+                android:id="@+id/button61"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Rodoviária                               17:03"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+            <Button
+                android:id="@+id/button62"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Centro                                      17:10"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <Button
+                android:id="@+id/button63"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Prado                                        17:27"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="352dp" />
+
+            <!--11° horário -->
+
+            <Button
+                android:id="@+id/button64"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Centro                                      17:51"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <Button
+                android:id="@+id/button65"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Rodoviária                               17:54"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+
+            <Button
+                android:id="@+id/button66"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Centenário/Unip                   17:58"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+            <Button
+                android:id="@+id/button67"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Rodoviária                               18:03"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+            <Button
+                android:id="@+id/button68"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Centro                                      18:10"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <Button
+                android:id="@+id/button69"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Prado                                        18:27"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="352dp" />
+
+            <!--12° horário -->
+
+            <Button
+                android:id="@+id/button70"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Centro                                      18:51"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <Button
+                android:id="@+id/button71"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Rodoviária                               18:54"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+
+            <Button
+                android:id="@+id/button72"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Centenário/Unip                   18:58"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+            <Button
+                android:id="@+id/button73"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Rodoviária                               19:03"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+            <Button
+                android:id="@+id/button74"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Centro                                      19:10"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <Button
+                android:id="@+id/button75"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Prado                                        19:27"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="352dp" />
+
+            <!--13° horário -->
+
+            <Button
+                android:id="@+id/button76"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Centro                                      19:51"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <Button
+                android:id="@+id/button77"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Rodoviária                               19:54"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+
+            <Button
+                android:id="@+id/button78"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Centenário/Unip                   19:58"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+            <Button
+                android:id="@+id/button79"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text="Rodoviária                               20:03"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+            <Button
+                android:id="@+id/button80"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Centro                                      20:10"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <Button
+                android:id="@+id/button81"
+                android:layout_width="382dp"
+                android:layout_height="47dp"
+                android:background="@drawable/botao"
+                android:text=" Prado                                        20:27"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="352dp" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

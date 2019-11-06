@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.isado.tchebus.MainActivity">
+
+    <TextView
+        android:layout_width="383dp"
+        android:layout_height="111dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/alegrete1"
+        android:text="."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.005"
+        android:layout_marginEnd="8dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="191dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="113dp"
+        android:background="?android:attr/actionModeBackground"
+        android:text="Ônibus"
+        app:layout_constraintHorizontal_bias="0.005"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="191dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="113dp"
+        android:background="@color/colorPrimary"
+        android:onClick="layout1"
+        android:text="Contato"
+        android:textColor="@android:color/white"
+        app:layout_constraintHorizontal_bias="0.994"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="371dp"
+        android:layout_height="329dp"
+        android:layout_marginTop="166dp"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/download"
+                android:onClick="layoutcentenarioprado"
+                android:text="Centenário - Prado"
+                tools:layout_editor_absoluteX="55dp"
+                tools:layout_editor_absoluteY="268dp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/download"
+                android:onClick="layoutfavilaboavista"
+                android:text="Favila - Boa Vista"
+                tools:layout_editor_absoluteX="55dp"
+                tools:layout_editor_absoluteY="268dp" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/download"
+                android:onClick="layoutfavilaterminal"
+                android:text="Favila - Terminal"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="-7dp" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/download"
+                android:onClick="layoutjoaoxiiinovabrasilia"
+                android:text="João XXIII - Nova Brasília"
+                tools:layout_editor_absoluteX="55dp"
+                tools:layout_editor_absoluteY="268dp" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/download"
+                android:onClick="layoutmedianeiranovabrasilia"
+                android:text="Medianeira - Nova Brasília"
+                tools:layout_editor_absoluteX="55dp"
+                tools:layout_editor_absoluteY="268dp" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/download"
+                android:onClick="layoutpolivalenteibirapuita"
+                android:text="Polivalente - Ibirapuitã"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="112dp" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/download"
+                android:onClick="layoutpradoibirapuita"
+                android:text="Prado - Ibirapuitã"
+                tools:layout_editor_absoluteX="55dp"
+                tools:layout_editor_absoluteY="268dp" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/download"
+                android:onClick="layoutrestingacapaodoangico"
+                android:text="Restinga- Capão do Angico"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="23dp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/download"
+                android:onClick="layoutveracruzsantosdumont"
+                android:text="Vera Cruz - Santos Dumont"
+                tools:layout_editor_absoluteX="55dp"
+                tools:layout_editor_absoluteY="268dp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/download"
+                android:onClick="layoutveracruzdrromario"
+                android:text="Vera Cruz - Dr. Romário"
+                tools:layout_editor_absoluteX="55dp"
+                tools:layout_editor_absoluteY="268dp" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/download"
+                android:onClick="layoutc1"
+                android:text="C1"
+                tools:layout_editor_absoluteX="55dp"
+                tools:layout_editor_absoluteY="268dp" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/download"
+                android:onClick="layoutc2"
+                android:text="C2"
+                tools:layout_editor_absoluteX="55dp"
+                tools:layout_editor_absoluteY="268dp" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <SearchView
+        android:id="@+id/button188"
+        android:layout_width="188dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="76dp"
+        android:background="?android:attr/scrollbarThumbHorizontal"
+        app:layout_constraintHorizontal_bias="0.994"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
